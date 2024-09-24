@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>...</title>
+    <title>Image Slider</title>
     <link rel="icon" type="image/x-icon" href="#">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/script.js" defer></script>
 </head>
 <body>
-    
+    <div class="slider-wrapper">
+        <div class="slider">
+            <div class="slides">
+                <img src="/media/images/one.jpg" alt="Image One">
+                <img src="/media/images/two.jpg" alt="Image Two">
+                <img src="/media/images/three.jpg" alt="Image Three">
+            </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
 </body>
 </html>
